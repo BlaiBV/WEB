@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+/****************************
+        PÀGINA INICIAL
+*****************************/
+
+/*HEADER I LOGO*/
+header {
+    background-color: #121926;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.k_logo {
+    z-index: 1;
+    height: 50px;
+
+    position: absolute;
+    left: 68px;
+    top: 25px;
+    opacity: 0;
+    transition: 0.5s ease;
+
+    animation-name: inici_logo;
+    animation-duration: 1s;
+}
+
+.k_logo:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.e_logo {
+    z-index: 1;
+    height: 50px;
+
+    position: absolute;
+    left: 103px;
+    top: 25px;
+    opacity: 0;
+    transition: 0.5s ease;
+
+    animation-name: inici_logo;
+    animation-duration: 1s;
+}
+
+.e_logo:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.t_logo {
+    z-index: 1;
+    height: 50px;
+
+    position: absolute;
+    left: 138px;
+    top: 25px;
+    opacity: 0;
+    transition: 0.5s ease;
+
+    animation-name: inici_logo;
+    animation-duration: 1s;
+}
+
+.t_logo:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.s_logo {
+    z-index: 1;
+    height: 50px;
+
+    position: absolute;
+    left: 173px;
+    top: 25px;
+    opacity: 0;
+    transition: 0.5s ease;
+
+    animation-name: inici_logo;
+    animation-duration: 1s;
+}
+
+.s_logo:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.preus {
+    width: 90px;
+    height: 33px;
+    border-radius: 15px;
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    float: left;
+    top: 35px;
+    left: 330px;
+    text-align: center;
+}
+
+.preus h2 {
+    margin: 0;
+}
+
+@keyframes inici_logo {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+
+/*NAV (INSIDE HEADER)*/
+nav {   
+    position: relative;
+    margin-top: 60px;
+    margin-right: 100px;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+nav a:hover {
+    color: orangered;
+    transition: 1s ease;
+}
+
+ul.menu_list {
+    margin-top: -20px;
+    list-style-type: none;
+}
+
+li.menu_item {
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    display: inline-block;  
+}
+
+.menu_resaltat {
+    color: orangered;
+}
+
+
+/*POST-HEADER*/
+.post_header {
+    background-color: #dedede;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.post_header h2 {
+    position: absolute;
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.post_header h3 {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 23px;
+}
+
+.post_header_x-square {
+    position: absolute;
+    top: 117px;
+    left: 90%;
+}
+
+
+/*SECTION 1*/
+.s1 {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+.principal_img {
+    width: 100%;
+}
+
+
+
+/*SECTION 2*/
+.s2 {
+    width: 90%;
+
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.s2 .d1, .s2 .d2, .s2 .d3,.s2 .d4 {
+    width: 300px;
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 10px #121926;
+    transition: 0.5s ease-out;
+}
+
+.s2 .d1:hover .down, .s2 .d3:hover .down {
+    margin-top: 45%;
+    transition: margin 0.5s ease;
+}
+
+.s2 .d2:hover .up, .s2 .d4:hover .up {
+    margin-top: 45%;
+    transition: margin 0.5s ease;
+}
+
+.s2 .d1 {
+    background-image: url(../imatges/sabata_dona2.jpg);
+    background-size: cover;
+}
+
+.s2 .d2 {
+    background-image: url(../imatges/sabata_home.jpg);
+    background-size: cover;
+}
+
+.s2 .d3 {
+    background-image: url(../imatges/sabata_nena.jpg);
+    background-size: cover;
+}
+
+.s2 .d4 {
+    background-image: url(../imatges/complements.jpg);
+    background-size: cover;
+}
+
+.down {
+    margin-top: 80%;
+}
+
+.up {
+    margin-top: 5%;
+}
+
+.s2 a {
+    text-decoration: none;
+}
+
+
+/*SECTION 3*/
+.s3 {
+    width: 82%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+}
+
+.descobreix_img {
+    width: 100%;
+}
+
+.descobreix_div {
+    width: 230px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 0.65;
+
+    color: black;
+    padding-left: 20px;
+    padding-top: 10px;
+
+
+    position: absolute;
+    top: 1280px;
+    left: 200px;
+}
+
+.descobreix_div:hover {
+    opacity: 0.9;
+}
+
+.fes_click {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #121926;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.contenidor {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 20px;
+}
+
+footer .d1, footer .d2, footer .d3, footer .d4 {
+    position: relative;
+    float: left;
+}
+
+footer .d3 {
+    width: 170px;
+}
+
+footer h3 {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .contenidor h3:hover {
+    color: white;
+}
+
+footer .contenidor .title {
+    font-size: 17px;;
+    color: white;
+    margin-bottom: 4px;
+}
+
+footer .contenidor .subtitle {
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(220, 220, 220);
+    margin-bottom: 3px;
+}
+
+footer .contenidor .subtitle:hover {
+    margin-left: 2px;
+}
+
+.bi-twitter, .bi-facebook, .bi-youtube {
+    margin-left: 10px;
+}
+
+
+footer i {
+    color: white;
+}
+
+.bi-instagram:hover {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.bi-twitter:hover {
+    color: #00acee;
+}
+
+.bi-facebook:hover {
+    color: #4267B2;
+}
+
+.bi-youtube:hover {
+    color: #c4302b
+}
+
+
+/****************************
+        PÀGINA DONA
+*****************************/
+
+.s1_dona {
+    width: 60%;
+
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.s1_dona .img1, .s1_dona .img2, .s1_dona .img3, .s1_dona .img4, .s1_dona .img5, .s1_dona .img6, .s1_dona .img7, .s1_dona .img8, .s1_dona .img9 {
+    width: 250px;
+    height: 250px;
+    
+    position: relative;
+    float: left;
+    margin-bottom: 2px;
+}
+
+.s1_dona .img1 {
+    width: 250px;
+    background-image: url(../imatges/dona/1.dona.webp);
+    background-size: cover;
+}
+
+.s1_dona .img1:hover {
+    background-image: url(../imatges/dona/1.dona_.webp);
+    transition: ease 1s;
+}
+
+.s1_dona .img2 {
+    width: 250px;
+    background-image: url(../imatges/dona/2.dona.webp);
+    background-size: cover;
+}
+
+.s1_dona .img2:hover {
+    background-image: url(../imatges/dona/2.dona_.webp);
+}
+
+.s1_dona .img3 {
+    width: 250px;
+    background-image: url(../imatges/dona/3.dona.webp);
+    background-size: cover;
+}
+
+.s1_dona .img3:hover {
+    background-image: url(../imatges/dona/3.dona_.webp);
+}
+
+.s1_dona .img4 {
+    width: 250px;
+    background-image: url(../imatges/dona/4.dona.webp);
+    background-size: cover;
+}
+
+.s1_dona .img4:hover {
+    background-image: url(../imatges/dona/4.dona_.webp);
+}
+
+.s1_dona .img5 {
+    width: 250px;
+    background-image: url(../imatges/dona/5.dona.webp);
+    background-size: cover;
+}
+
+.s1_dona .img5:hover {
+    background-image: url(../imatges/dona/5.dona_.webp);
+}
+
+.s1_dona .img6 {
+    width: 250px;
+    background-image: url(../imatges/dona/6.dona.webp);
+    background-size: cover;
+}
+
+.s1_dona .img6:hover {
+    background-image: url(../imatges/dona/6.dona_.webp);
+}
+
+.s1_dona .img7 {
+    width: 250px;
+    background-image: url(../imatges/dona/7.dona.webp);
+    background-size: cover;
+}
+
+.s1_dona .img7:hover {
+    background-image: url(../imatges/dona/7.dona_.webp);
+}
+
+.s1_dona .img8 {
+    width: 250px;
+    background-image: url(../imatges/dona/8.dona.webp);
+    background-size: cover;
+}
+
+.s1_dona .img8:hover {
+    background-image: url(../imatges/dona/8.dona_.webp);
+}
+
+.s1_dona .img9 {
+    width: 250px;
+    background-image: url(../imatges/dona/9.dona.webp);
+    background-size: cover;
+}
+
+.s1_dona .img9:hover {
+    background-image: url(../imatges/dona/9.dona_.webp);
+}
+
+#sub1, #sub2, #sub3, #sub4, #sub5, #sub6, #sub7, #sub8, #sub9 {
+    width: 250px;
+    height: 20px;
+    margin-top: 255px;
+    background-color: #f6f6f6;
+    text-align: center;
+    display: none;
+}
+
+.s1_dona h4 {
+    font-weight: 300;
+}
+
+
+.img1:hover + #sub1, .img2:hover + #sub2, .img3:hover + #sub3, .img4:hover +#sub4, .img5:hover + #sub5, .img6:hover + #sub6, .img7:hover + #sub7, .img8:hover + #sub8, .img9:hover + #sub9 {
+    display: block;
+}
+
+
+
+/****************************
+        PÀGINA CONTACTE
+*****************************/
+.s1_contacte {
+    width: 50%;
+    min-width: 350px;
+    max-width: 550px;
+
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    border: 1px solid orangered;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+form {
+    width: 310px;
+    text-align: left;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input {
+    width: 310px;
+    border: none;
+    margin-top: 2px;
+}
+
+form textarea {
+    width: 300px;
+    height: auto;
+}
+
+form #enviar {
+    border-radius: 2px;
+}
+
+form #nom:valid, form #correu:valid, form #assumpte:valid {
+    border-bottom: 1px solid black;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+}
+
+
+
+/****************************
+        PÀGINA INACTIVA
+*****************************/
+.s1_inactiu {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+}

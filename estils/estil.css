@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    height: 2000px;
+    width: 100%;
+    margin-left: -8px;
+}
+
+/*HEADER I NAV*/
+header {
+    background-color: #121926;
+    height: 100px;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left:0;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 60px;
+    margin-top: 25px;
+    
+    position: relative;
+    float: left;
+}
+
+nav {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    
+    position: relative;
+    margin-top: 60px;
+    margin-right: 100px;
+    float: right;
+}
+
+ul.menu_list {
+    margin-top: -20px;
+    list-style-type: none;
+}
+
+li.menu_item {
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    display: inline-block;  
+}
+
+header ul a:hover {
+    color: orangered;
+    transition: 1s ease;
+}
+
+/*PRIMERA SECTION*/
+.principal_img {
+    width: 90%;
+    margin: auto;
+    display: block;
+
+    margin-top: 150px;
+}
+
+/*SEGONA SECTION*/
+.s2 {
+    width: 90%;
+    padding-top: 50px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.s2 .d1,.d2,.d3,.d4 {
+    width: 310px;
+    height: auto;
+
+    border: 1px solid black;
+
+    float: left;
+    position: relative;
+
+    margin: 0 10px 0 10px;
+}
+
+.sabata_dona, .sabata_home, .sabata_nena, .complements {
+    width: 310px;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+}
+
+.s2 h2 {
+    margin: 0 auto;
+    text-align: center;
+    z-index: 5;
+}
