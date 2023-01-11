@@ -552,6 +552,10 @@ footer i {
     font-weight: 300;
 }
 
+.s1_dona .d1, .s1_dona .d2, .s1_dona .d3, .s1_dona .d4, .s1_dona .d5, .s1_dona .d6, .s1_dona .d7, .s1_dona .d8, .s1_dona .d9 {
+    height: 270px;
+}
+
 
 .img1:hover + #sub1, .img2:hover + #sub2, .img3:hover + #sub3, .img4:hover +#sub4, .img5:hover + #sub5, .img6:hover + #sub6, .img7:hover + #sub7, .img8:hover + #sub8, .img9:hover + #sub9 {
     display: block;
