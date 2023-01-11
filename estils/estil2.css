@@ -546,7 +546,7 @@ footer i {
     display: none;
 }
 
-#sub1 > h4:nth-child(1) {
+.s1_dona h4 {
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: 300;
