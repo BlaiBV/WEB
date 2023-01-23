@@ -105,23 +105,6 @@ header {
     transition: 0.5s ease;
 }
 
-.preus {
-    width: 90px;
-    height: 33px;
-    border-radius: 15px;
-    border: 1px solid white;
-    color: white;
-    position: absolute;
-    float: left;
-    top: 35px;
-    left: 330px;
-    text-align: center;
-}
-
-.preus h2 {
-    margin: 0;
-}
-
 @keyframes inici_logo {
     from {opacity: 1;}
     to {opacity: 0;}
@@ -421,11 +404,45 @@ footer i {
 /****************************
         PÀGINA DONA
 *****************************/
+.s0_dona {
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
 
-.s1_dona {
+.preus, .search, .s0_dona .d2 select {
+    width: 250px;
+    height: 24px;
+}
+
+.s0_dona .d1, .s0_dona .d2, .preus {
+    position: relative;
+    float: left;
+}
+
+.preus {
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+}
+
+.preus h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.search {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 20px;
+    border: transparent;
+    border-bottom: solid 1px rgb(156, 152, 152);
+    padding: 10px 10px 10px 30px;
+    outline: none;
+}
+
+.s1_dona, .s0_dona {
     width: 60%;
 
-    margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
 
@@ -559,7 +576,6 @@ footer i {
 .img1:hover + #sub1, .img2:hover + #sub2, .img3:hover + #sub3, .img4:hover +#sub4, .img5:hover + #sub5, .img6:hover + #sub6, .img7:hover + #sub7, .img8:hover + #sub8, .img9:hover + #sub9 {
     display: block;
 }
-
 
 
 /****************************
