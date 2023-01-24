@@ -1,5 +1,4 @@
-var preu = 0;
-
+/*ANUNCI INDEX*/
 function close() {
   document.getElementById('post').innerHTML=''; 
   document.getElementById('post').style.height = '0px'; 
@@ -8,6 +7,10 @@ function close() {
   document.getElementById('post_header_x-square').style.display = 'none';
 }
 
+
+
+/*PREUS APARTATS DONA, HOME I NEN/A*/
+var preu = 0;
 function preus() {
   if (preu == 0){
     document.getElementById('preus').style.borderColor = 'orangered';
@@ -27,4 +30,35 @@ function preus() {
     window.location.reload();
   }
   
+}
+
+
+/*SLIDE UBICACIÓ*/
+let index = 0;
+
+
+function showSlides() {
+  
+  document.getElementById('mySlides1').style.display = 'none';  
+  document.getElementById('mySlides2').style.display = 'none';  
+  document.getElementById('mySlides3').style.display = 'none';  
+  document.getElementById('mySlides4').style.display = 'none';  
+
+  index++;
+  if (index > 4) {index = 1}
+  
+  if (index == 1){
+    document.getElementById('mySlides1').style.display = 'block';  
+  }
+  else if (index == 2){
+    document.getElementById('mySlides2').style.display = 'block';  
+  }
+  else if (index == 3){
+    document.getElementById('mySlides3').style.display = 'block';  
+  }
+  else {
+    document.getElementById('mySlides4').style.display = 'block';  
+  }
+
+  setTimeout(showSlides, 2000); 
 }

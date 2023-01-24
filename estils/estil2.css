@@ -637,6 +637,41 @@ form input:focus, form textarea:focus {
 
 
 /****************************
+        PÀGINA UBICACIÓ
+*****************************/
+.s1_ubicacio {
+    width: 50%;
+
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.s1_ubicacio p {
+    text-align: justify;
+}
+
+.s1_ubicacio div img {
+    width: 770px;
+    height: 470px;
+}
+
+#mySlides1, #mySlides2, #mySlides3, #mySlides4 {
+    display: none;
+}
+
+.s2_ubicacio {
+    width: 50%;
+
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/****************************
         PÀGINA INACTIVA
 *****************************/
 .s1_inactiu {
