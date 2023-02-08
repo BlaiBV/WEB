@@ -17,6 +17,7 @@
             <title>Sabates confeccionades amb material reciclat</title>
             <link>https://blaibv.github.io/WEB/</link>
             <description>Descobreix les noves sabates confeccionades amb material reciclat.</description>
+            <enclosure url="https://blaibv.github.io/WEB/imatges/reciclades.png" length="44139" type="image/png" />
             <media:content url="https://blaibv.github.io/WEB/imatges/reciclades.png" >
 						<media:thumbnail url="https://blaibv.github.io/WEB/imatges/reciclades.png" width="250" height="250"/>
 			</media:content>
@@ -25,6 +26,7 @@
             <title>Les 4 tendències en sabates d'hivern</title>
             <link>https://blaibv.github.io/WEB/</link>
             <description>En aquesta notícia trobaràs les sabates de la nova temporada que voldràs estrenar.</description>
+            <enclosure url="https://blaibv.github.io/WEB/imatges/hivern.png" length="44139" type="image/png" />
             <media:content url="https://blaibv.github.io/WEB/imatges/hivern.png" >
 						<media:thumbnail url="https://blaibv.github.io/WEB/imatges/hivern.png" width="250" height="250"/>
 			</media:content>
