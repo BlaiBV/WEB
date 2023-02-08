@@ -9,7 +9,7 @@
             <link>https://blaibv.github.io/WEB/</link>
             <description>En el dia a dia, ens hem acostumat a tractar el nostre calçat d'una forma inadequada. El sotmetem a condicions que els danyen i escurcen la seva vida. En aquesta notícia, t'expliquem que pots fer per corregir aquestes accions.</description>
             <media:content url="https://blaibv.github.io/WEB/imatges/trencades.png" >
-						<media:thumbnail url="https://blaibv.github.io/WEB/imatges/trencades.png"/>
+						<media:thumbnail url="https://blaibv.github.io/WEB/imatges/trencades.png" width="250" height="250"/>
 			</media:content>
         </item>
         <item>
@@ -17,7 +17,7 @@
             <link>https://blaibv.github.io/WEB/</link>
             <description>Descobreix les noves sabates confeccionades amb material reciclat.</description>
             <media:content url="https://blaibv.github.io/WEB/imatges/reciclades.png" >
-						<media:thumbnail url="https://blaibv.github.io/WEB/imatges/reciclades.png"/>
+						<media:thumbnail url="https://blaibv.github.io/WEB/imatges/reciclades.png" width="250" height="250"/>
 			</media:content>
         </item>
         <item>
@@ -25,7 +25,7 @@
             <link>https://blaibv.github.io/WEB/</link>
             <description>En aquesta notícia trobaràs les sabates de la nova temporada que voldràs estrenar.</description>
             <media:content url="https://blaibv.github.io/WEB/imatges/hivern.png" >
-						<media:thumbnail url="https://blaibv.github.io/WEB/imatges/hivern.png"/>
+						<media:thumbnail url="https://blaibv.github.io/WEB/imatges/hivern.png" width="250" height="250"/>
 			</media:content>
         </item>
     </channel>
