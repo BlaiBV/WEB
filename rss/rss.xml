@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+            <title>KETS RSS</title>
+            <link>https://blaibv.github.io/WEB/</link>
+            <description>Notícies sobre el món de les sabates</description>
+        <item>
+            <title>Les 10 coses que NO has de fer a les teves sabates!</title>
+            <link>https://blaibv.github.io/WEB/</link>
+            <description>En el dia a dia, ens hem acostumat a tractar el nostre calçat d'una forma inadequada. El sotmetem a condicions que els danyen i escurcen la seva vida. En aquesta notícia, t'expliquem que pots fer per corregir aquestes accions.</description>
+            <media:content url="https://blaibv.github.io/WEB/imatges/trencades.png" >
+						<media:thumbnail url="https://blaibv.github.io/WEB/imatges/trencades.png"/>
+			</media:content>
+        </item>
+        <item>
+            <title>Sabates confeccionades amb material reciclat</title>
+            <link>https://blaibv.github.io/WEB/</link>
+            <description>Descobreix les noves sabates confeccionades amb material reciclat.</description>
+            <media:content url="https://blaibv.github.io/WEB/imatges/reciclades.png" >
+						<media:thumbnail url="https://blaibv.github.io/WEB/imatges/reciclades.png"/>
+			</media:content>
+        </item>
+        <item>
+            <title>Les 4 tendències en sabates d'hivern</title>
+            <link>https://blaibv.github.io/WEB/</link>
+            <description>En aquesta notícia trobaràs les sabates de la nova temporada que voldràs estrenar.</description>
+            <media:content url="https://blaibv.github.io/WEB/imatges/hivern.png" >
+						<media:thumbnail url="https://blaibv.github.io/WEB/imatges/hivern.png"/>
+			</media:content>
+        </item>
+    </channel>
+</rss>
