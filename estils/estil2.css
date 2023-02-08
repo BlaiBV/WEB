@@ -321,7 +321,7 @@ footer {
 }
 
 .contenidor {
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
@@ -372,8 +372,8 @@ footer .contenidor .subtitle:hover {
     margin-left: 2px;
 }
 
-.bi-twitter, .bi-facebook, .bi-youtube {
-    margin-left: 10px;
+.bi-twitter, .bi-facebook, .bi-youtube, .rss, .atom {
+    margin-left: 8px;
 }
 
 
@@ -396,7 +396,15 @@ footer i {
 }
 
 .bi-youtube:hover {
-    color: #c4302b
+    color: #c4302b;
+}
+
+.rss:hover {
+    color: #f08b33;
+}
+
+.atom:hover {
+    color: #3162c3;
 }
 
 
